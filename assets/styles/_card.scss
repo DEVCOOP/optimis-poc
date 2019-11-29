@@ -1,0 +1,202 @@
+@import '~@angular/material/theming';
+@import './theme';
+
+@mixin theme-color-card($my-theme) {
+  $primary: map-get($my-theme, primary);
+  $accent: map-get($my-theme, accent);
+  $warn: map-get($my-theme, warn);
+  $config: mat-typography-config();
+
+  .mat-dialog-container {
+    .mat-card {
+      margin: 0px !important;
+    }
+  }
+
+  .mat-card {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border: solid 1px #f2f2f2;
+    margin: 1.25rem 0.5rem 2px 0.5rem !important;
+    padding: 0.5rem !important;
+
+    &.small {
+      margin: 5px;
+      padding: 10px;
+
+      > .mat-card-header {
+        margin: -5px -5px 0rem -5px !important;
+        padding: 0.25rem;
+
+        .mat-card-header-text {
+          margin: 0px;
+        }
+      }
+      > .mat-card-content {
+        margin-bottom: 0;
+      }
+
+    }
+
+    .mat-card-title {
+      margin-bottom: 0;
+      h1, h2, h3 {
+        margin-bottom: 0;
+      }
+
+      .mat-badge-medium.mat-badge-above .mat-badge-content {
+        top: 0;
+      }
+
+    }
+
+    > .mat-card-header {
+      display: block;
+      padding: 0.5rem;
+      margin: -0.5rem -0.5rem 0rem -0.5rem !important;
+      border-radius: 5px 5px 0px 0px;
+      text-align: left;
+
+      .mat-form-field-wrapper {
+        margin-bottom: -1.25em;
+        color: mat-contrast($primary, 900) !important;
+
+        .mat-form-field-wrapper, .mat-form-field-label {
+          color: rgba(255, 255, 255, 0.54) !important;
+        }
+        .mat-form-field-underline {
+          background-color: rgba(255, 255, 255, 0.42) !important;
+        }
+      }
+
+      &.inline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .mat-card-header-text {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          .mat-card-subtitle {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 32px;
+          }
+        }
+      }
+
+      .mat-card-title {
+        margin-bottom: 0px;
+        color: mat-color($primary);
+        @include mat-typography-level-to-styles($config, title);
+
+        &.comment-title {
+          font-size: 16px !important;
+        }
+      }
+
+    }
+
+    > .mat-card-content {
+      padding-top: 10px;
+    }
+
+    > .mat-card-actions {
+      margin-left: 0rem;
+      margin-right: 0rem;
+
+      &:last-child:not(.backgroundColored) {
+        margin-bottom: 0rem !important;
+      }
+    }
+
+    &.mat-card-primary {
+      > .mat-card-header {
+        background-image: linear-gradient(96deg, mat-color($primary, 500), mat-color($primary, 300));
+        color: mat-contrast($primary, 900);
+        .mat-card-title {
+          color: mat-contrast($primary, 900);
+        }
+        .mat-card-subtitle {
+          color: mat-contrast($primary, 900);
+        }
+        .mat-select-value-text {
+          color: mat-contrast($primary, 900);
+        }
+      }
+    }
+
+    &.mat-card-accent {
+      > .mat-card-header {
+        background: linear-gradient(40deg, mat-color($accent, 300), mat-color($accent, 700)) !important;
+        .mat-card-title {
+          color: mat-contrast($accent, 900);
+        }
+        .mat-card-subtitle {
+          color: mat-contrast($accent, 900);
+        }
+        .mat-select-value-text {
+          color: mat-contrast($primary, 900);
+        }
+      }
+    }
+
+    &.mat-card-warn {
+      > .mat-card-header {
+        background: linear-gradient(40deg, mat-color($warn, 300), mat-color($warn, 700)) !important;
+        .mat-card-title {
+          color: mat-contrast($warn, 900);
+
+        }
+        .mat-card-subtitle {
+          color: mat-contrast($warn, 900);
+
+        }
+      }
+    }
+
+  }
+
+  .mat-card.alert {
+    border: 1px solid mat-color($warn, 800);
+    background: mat-color($warn, 100) !important;
+    color: mat-color($warn, 800) !important;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0.5rem 10px 0.5rem !important
+  }
+
+  .mat-card.info {
+    border: 1px solid mat-color($primary, 800);
+    background: mat-color($primary, 100) !important;
+    color: mat-contrast($primary, 800) !important;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .card-title {
+    margin-bottom: 0px;
+    color: mat-color($primary);
+    @include mat-typography-level-to-styles($config, title);
+  }
+
+  .mat-card-footer {
+    margin: 0 -8px -8px -8px !important;
+    &.backgroundColored {
+      background-color: #f2f7ff;
+      color: $grey-color;
+    }
+  }
+  .mat-card-actions {
+    &.backgroundColored {
+      margin: 0 -8px -8px -8px !important;
+      background-color: #f2f7ff;
+      padding: 10px !important;
+    }
+  }
+
+}
+
+

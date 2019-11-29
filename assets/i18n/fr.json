@@ -1,0 +1,908 @@
+{
+  "address": {
+    "additional": "Complément d'adresse",
+    "cedex": "Cedex",
+    "city": "Ville",
+    "country": "Pays",
+    "number": "N°",
+    "postalBox": "Boîte postale",
+    "postalCode": "Code postal",
+    "street": "Rue",
+    "title": "Adresse"
+  },
+  "alert": {
+    "action": "Action",
+    "creationDate": "Date",
+    "description": "Description",
+    "list": {
+      "noElement": "Aucune alerte",
+      "search": "Recherche",
+      "title": "Alertes"
+    },
+    "patient": "Patient"
+  },
+  "auth": {
+    "authenticateByCps": "Authentification carte CPS",
+    "changePassword": {
+      "button": {
+        "askNewLink": "Demande nouveau mot de passe temporaire"
+      },
+      "confirm": {
+        "content": "Votre nouveau mot de passe a bien été enregistré.",
+        "title": "Nouveau mot de passe"
+      },
+      "title": "Nouveau mot de passe"
+    },
+    "confirmPassword": "Confirmer le mot de passe",
+    "createAccount": {
+      "title": "Vous n'avez pas de compte?"
+    },
+    "error": {
+      "passwordNotEnoughStrength": "Le mot de passe n'est pas assez robuste (minimum 8 caractères avec au moins une lettre, un chiffre et un caractère spécial)",
+      "passwordsNotSame": "Les 2 mots de passe ne sont pas identiques"
+    },
+    "forgotPassword": {
+      "title": "Demande de mot de passe"
+    },
+    "login": "Identifiant (email)",
+    "lostLogin": "Identifiant oublié? Veuillez contacter Optim'Care: admin@optim-care.com",
+    "otp": {
+      "message": "Un mot de passe à usage unique vient de vous être envoyé sur votre email, merci de le saisir pour vous authentifier.",
+      "title": "Mot de passe à usage unique"
+    },
+    "password": "Mot de passe",
+    "passwordForgotten": "Mot de passe oublié?",
+    "title": "Authentification"
+  },
+  "backoffice": {
+    "center": {
+      "patients": {
+        "title": "Patients du centre"
+      },
+      "users": {
+        "title": "Utilisateurs du centre"
+      }
+    },
+    "users": {
+      "newUserButton": "Nouveau utilisateur",
+      "tabs": {
+        "closed": "Clôturé",
+        "toValidate": "A valider",
+        "validated": "Approuvé"
+      },
+      "title": "Utilisateurs"
+    }
+  },
+  "billing": {
+    "button": {
+      "exportMonitoring": "Exporter les données de télésurveillance"
+    },
+    "title": "Facturation"
+  },
+  "button": {
+    "activateMonitoring": "Sélectionner",
+    "back": "Retour",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "createAccount": "Créer un compte",
+    "edit": "Modifier",
+    "ok": "OK",
+    "save": "Enregistrer",
+    "submit": "Valider",
+    "uploadFile": "Télécharger un document",
+    "validate": "Valider"
+  },
+  "center": {
+    "activitySector": "Secteur d'activité",
+    "address": {
+      "city": "Ville",
+      "country": "Pays",
+      "title": "Adresse"
+    },
+    "code": "Code pour l'apprentissage",
+    "confirm": {
+      "content": "le centre a été mis à jour",
+      "title": "Mise à jour du centre"
+    },
+    "contract": {
+      "button": {
+        "add": "Ajouter un contrat",
+        "remove": "Supprimer un contrat"
+      },
+      "date": "Date",
+      "endDate": "Date de fin",
+      "indicationRightFilters": "Indications suivies",
+      "license": "Licence",
+      "startDate": "Date de début",
+      "title": "Contrats"
+    },
+    "create": {
+      "search": {
+        "finess": "Recherche depuis l'annuaire Finess",
+        "google": "Recherche depuis google",
+        "title": "Recherche de centre"
+      },
+      "title": "Création du centre"
+    },
+    "edit": {
+      "title": "Modification de centre"
+    },
+    "fax": "Fax",
+    "finess": "FINESS",
+    "licenses": {
+      "title": "Licences"
+    },
+    "list": {
+      "search": "Recherche",
+      "title": "Liste des centres"
+    },
+    "name": "Centre",
+    "newCenterButton": "Nouveau centre",
+    "phone": "Téléphone",
+    "publicId": "Identifiant public ",
+    "title": "Centre"
+  },
+  "chart": {
+    "axis": {
+      "bloodPressure": "Tension",
+      "bmi": "IMC",
+      "range": {
+        "all": "Tous",
+        "half_year": "6 mois",
+        "month": "1 mois",
+        "quarter_year": "3 mois",
+        "year": "1 an"
+      },
+      "weight": "Poids"
+    },
+    "threshold": "Seuils",
+    "tooltip": {
+      "bmi": "IMC",
+      "weight": "Poids"
+    }
+  },
+  "common": {
+    "alerts": "Alertes",
+    "notifications": "Notifications"
+  },
+  "configuration": {
+    "learning": {
+      "confirm": {
+        "content": "Les formulaires ont bien été mis à jour",
+        "title": "Mise à jour des formulaires"
+      },
+      "message": "Configuration des formulaires d'apprentissage par centre (le code affiché est le tag à utiliser dans Wordpress pour lier des articles)",
+      "title": "Formulaires d'apprentissage"
+    },
+    "message": {
+      "noChange": "Aucun changement"
+    }
+  },
+  "error": {
+    "noInternet": "Aucune connexion internet",
+    "noRights": "Vous n'avez pas les droits pour cette action.",
+    "unexpectedError": "Erreur inattendue, merci de contacter Optim'Care si le problème persiste."
+  },
+  "forgotPassword": {
+    "confirm": {
+      "content": "Un email contenant un lien pour enregistrer votre nouveau mot de passe vous a été envoyé.",
+      "title": "Mot de passe réinitialisé"
+    }
+  },
+  "form": {
+    "field": {
+      "emailInvalid": "email invalide",
+      "required": "Vous devez saisir une valeur"
+    }
+  },
+  "header": {
+    "about": "A propos",
+    "alert": "Télésurveillance: Alertes",
+    "backoffice": "Administration",
+    "home": "Accueil",
+    "learning": "Apprentissage",
+    "login": "Se connecter",
+    "logout": "Déconnexion",
+    "myProfile": "Mon profil",
+    "notification": "Télésurveillance: Notifications",
+    "patient": "Mes patients",
+    "register": "Créer un compte",
+    "teleexpertise": "Adaptation de posologie des IS",
+    "telemonitoring": "Télésurveillance"
+  },
+  "home": {
+    "alert": {
+      "title": "Alertes / Notifications"
+    },
+    "button": {
+      "learnmore": "En savoir plus",
+      "seeAlert": "Voir les alertes"
+    },
+    "teleexpertise": {
+      "content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>\n\nPour demander accès à ce service, merci de contacter Optim'Care: admin@optim-care.com\n",
+      "title": "Adaptation de posologie des immunosuppresseurs"
+    },
+    "telemonitoring": {
+      "content": "Le dispositif médical Optim’HomeCare est une solution de télésurveillance qui permet aux équipes de soins de suivre leurs patients de manière totalement personnalisée à domicile :\n<ul>\n   <li>Suivi des données cliniques, biologiques, physiques et psychologiques.</li>\n <li>Personnalisation des données à suivre, de leur fréquence et des seuils d'alertes.</li>\n   <li>Outils pratiques et pédagogiques pour les patients.</li>\n</ul>\nPour demander accès à ce service, merci de contacter Optim'Care: admin@optim-care.com\n",
+      "title": "Télésurveillance médicale"
+    },
+    "welcome": "Bienvenue sur la plateforme Optim’Care"
+  },
+  "informationConfiguration": {
+    "ceMarking": "A propos",
+    "confirm": {
+      "content": "Les données ont été enregistrées",
+      "title": "Informations"
+    },
+    "gcu": "Conditions générales d'utilisation",
+    "title": "Informations",
+    "userGuide": "Guide utilisateur"
+  },
+  "learning": {
+    "article": {
+      "button": {
+        "add": "Ajouter un article",
+        "edit": "Editer un article",
+        "new": "Créer un nouvel article",
+        "remove": "Supprimer un article"
+      },
+      "categories": "Thématique(s)",
+      "categoriesIndications": "Thématiques / Indications",
+      "content": "",
+      "create": {
+        "title": "Nouvel acticle"
+      },
+      "creationDate": "Date",
+      "edit": {
+        "title": "Modification de l'article"
+      },
+      "indications": "Indication(s)",
+      "lastUpdatedDate": "Dernière modification",
+      "name": "Article",
+      "status": "Statut",
+      "statusTitle": "Etat de l'article",
+      "title": "Titre"
+    },
+    "articles": {
+      "title": "Articles"
+    },
+    "button": {
+      "addArticle": "Ajouter un article",
+      "addCategory": "Ajouter une thématique",
+      "addForm": "Ajouter un questionnaire"
+    },
+    "categories": {
+      "delete": {
+        "confirm": {
+          "content": "Voulez-vous supprimer cette thématique et si elles existent, ses sous thématiques?",
+          "title": "Suppression d'une catégorie"
+        }
+      },
+      "subCategories": "Sous thématique(s)",
+      "title": "Thématiques"
+    },
+    "category": {
+      "button": {
+        "add": "Ajout d'une thématique",
+        "addImage": "Ajout d'une image",
+        "edit": "Editer une thématique",
+        "new": "Ajouter une thématique",
+        "remove": "Supprimer la thématique"
+      },
+      "creationDate": "Date",
+      "edit": {
+        "title": "Edition de la thématique"
+      },
+      "image": "Image",
+      "indications": "Indication(s)",
+      "name": "Nom",
+      "new": {
+        "title": "Nouvelle Thématique"
+      },
+      "parent": "Thématique parent",
+      "status": "Statut"
+    },
+    "dashboard": {
+      "lastArticles": "Derniers articles",
+      "lastCategories": "Dernières thématiques",
+      "lastForms": "Derniers questionnaires",
+      "subTitle": "Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+      "title": "Espace apprentissage"
+    },
+    "form": {
+      "button": {
+        "add": "Ajouter un questionnaire",
+        "edit": "Editer un questionnaire",
+        "new": "Créer un nouveau questionnaire",
+        "remove": "Supprimer un questionnaire"
+      },
+      "categories": "Thématique(s)",
+      "categoriesIndications": "Thématiques / Indications",
+      "content": "",
+      "create": {
+        "title": "Nouveau questionnaire"
+      },
+      "creationDate": "Date",
+      "edit": {
+        "title": "Modification d'un questionnaire"
+      },
+      "indications": "Indication(s)",
+      "lastUpdatedDate": "Date dernière modification",
+      "name": "Questionnaire",
+      "new": {
+        "title": "Nouveau questionnaire"
+      },
+      "publishWithoutQuestionError": "Vous ne pouvez pas publier un questionnaire sans question",
+      "question": {
+        "answer": "Réponse",
+        "button": {
+          "add": "Ajouter une question"
+        },
+        "choice": {
+          "addButton": "Ajouter une réponse",
+          "label": "libellé de la réponse",
+          "optionMultipleError": "Pour un type de réponse 'Choix unique', une seule réponse correcte est possible",
+          "questionType": {
+            "CHECKBOX": "Choix multiples",
+            "OPTION": "Choix unique"
+          },
+          "removeButton": "Supprimer la réponse",
+          "result": "Validité",
+          "type": "Type de réponse"
+        },
+        "comment": "Explication de la réponse",
+        "label": "Intitulé de la question"
+      },
+      "status": "Statut",
+      "statusTitle": "Etat du questionnaire",
+      "title": "Titre"
+    },
+    "forms": {
+      "title": "Questionnaires"
+    },
+    "list": {
+      "filter": {
+        "button": "Filtres",
+        "submit": "Appliquer",
+        "title": "Affiner la recherche :"
+      },
+      "search": "Recherche"
+    },
+    "status": {
+      "ARCHIVED": "Archivé",
+      "DRAFT": "Brouillon",
+      "PUBLISHED": "Publié"
+    }
+  },
+  "menu": {
+    "activateTelemonitoring": "Initier la télésurveillance",
+    "alertHistory": "Alertes",
+    "billing": "Facturation",
+    "center": "Centres",
+    "configuration": "Configuration TS",
+    "currentTelemonitoring": "Patient: données télésurveillance",
+    "forms": "Formulaires",
+    "informationConfiguration": "Liens",
+    "learning": {
+      "articles": "Articles",
+      "categories": "Thématiques",
+      "dashboard": "Vue d'ensemble",
+      "forms": "Questionnaires"
+    },
+    "monitoring-delivery": "Télésurveillance",
+    "newPatient": "Nouveau patient",
+    "nomenclature": "Nomenclatures",
+    "rights": "Droits",
+    "settings": "Paramétrage",
+    "user": "Utilisateurs"
+  },
+  "monitoring": {
+    "alert": {
+      "displayManagedAlert": "Afficher les alertes traitées",
+      "message": "Les actions ne sont pas partagées avec le patient."
+    },
+    "button": {
+      "share": "Modifier les professionnels"
+    },
+    "date": "Date",
+    "endDate": "Date de fin",
+    "indication": {
+      "label": "Indication"
+    },
+    "intervenants": {
+      "addButton": "Ajouter un professionnel",
+      "email": "Email pour lui envoyer les information de création de compte",
+      "follower": "Professionnel en charge de l'accompagnement thérapeutique",
+      "monitor": "Médecin en charge de la télésurveillance",
+      "prescriber": "Médecin prescripteur",
+      "removeButton": "Supprimer le professionnel",
+      "rights": "Droits sur le dossier",
+      "sharedUser": "Autre professionnel ayant accès au dossier",
+      "title": "Professionnels de santé impliqués:"
+    },
+    "lastRenewalDate": "Date dernier renouvellement",
+    "patient": {
+      "label": "Patient"
+    },
+    "startDate": "Date début",
+    "tab": {
+      "learning": "Apprentissage",
+      "monitoring": "Télésurveillance",
+      "patient": "Patient",
+      "prescription": "Ordonnances",
+      "responsibles": "Professionnels",
+      "verbosity": "Paramétrage"
+    },
+    "verbosity": {
+      "allDataFilled": "Recevoir une notification une fois toutes les données saisies",
+      "eachDataFilled": "Recevoir une notification à chaque nouvelle donnée",
+      "mailForAlert": "Recevoir un mail pour chaque alerte de l'application",
+      "mailForNotification": "Recevoir un mail pour chaque notification de l'application",
+      "title": " Notifications supplémentaires disponibles"
+    }
+  },
+  "monitoringDelivery": {
+    "display": {
+      "title": "Télésurveillance"
+    },
+    "equipment": {
+      "firstSynch": "1ère synchro",
+      "label": "Equipement",
+      "lastSynch": "Dernière synchro",
+      "sentDate": "Date d'envoi",
+      "serialNumber": "N° série",
+      "toSend": "à envoyer"
+    },
+    "list": {
+      "noElement": "Aucun élement",
+      "search": "Recherche",
+      "title": "Liste des monitoring"
+    }
+  },
+  "notification": {
+    "action": {
+      "by": "Traitée le {{date}} par {{by}}",
+      "name": "Action effectuée"
+    },
+    "learningAddForm": "{{patient}} a effectué son accompagnement thérapeutique",
+    "monitoringAlert": "<b>{{dataType}}</b> de {{patient}} est {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
+    "monitoringAllDataFilled": "Toutes les données de télésurveillance demandées pour le patient {{patient}} ont été renseignées",
+    "monitoringClosed": "La télésurveillance de {{patient}} a été clôturée, pensez à télécharger le compte-rendu.",
+    "monitoringEnded": "La télésurveillance de {{patient}} se termine dans moins de 30 jours",
+    "monitoringFormAnswerAdd": "Le patient {{patient}} a répondu au questionnaire <b>{{dataType}}</b>",
+    "monitoringNotification": "{{patient}} {{description}} {{dataType}}",
+    "monitoringUnfilledData": "{{patient}} est en retard pour la(es) donnée(s) suivante(s) : <b>{{dataType}}</b>",
+    "noData": "Aucun élément",
+    "uploadedData": "{{patient}} a téléchargé un nouveau rapport d'analyse biologique"
+  },
+  "otherIndication": {
+    "CYSTIC_FIBROSIS": "Mucoviscidose",
+    "DIABETIC": "Diabète"
+  },
+  "patient": {
+    "access": {
+      "description": "Pour que votre patient ait accès à l'application, vous devez renseigner son email afin qu'il reçoive son identifiant et le lien pour télécharger l'application",
+      "email": "email",
+      "title": ""
+    },
+    "account": {
+      "reinit": {
+        "button": "Réinitialisation des identifiants de connexion",
+        "content": "Attention, si vous validez les identifiants de connexion du patient seront réinitialisés, il recevra un mail avec son identifiant (email) et un nouveau mot de passe provisoire pour se connecter à son compte.",
+        "title": "Réinitialisation des identifiants de connexion"
+      }
+    },
+    "address": "Adresse",
+    "addressSelection": "Renseigner l'adresse du patient",
+    "administrativeInformation": {
+      "title": "Informations administratives"
+    },
+    "attestationDroit": {
+      "download": "Télécharger attestation carte vitale",
+      "label": "Carte vitale"
+    },
+    "biologicaldata": {
+      "alertForNewDataUpload": "Recevoir une notification lorsque le patient partage un rapport d'analyse biologique.",
+      "needAtLeastOneEntry": "Vous devez suivre au moins 1 donnée biologique",
+      "title": "Données biologiques"
+    },
+    "birthDate": "Date de naissance",
+    "birthName": "Nom de naissance",
+    "button": {
+      "activateMonitoring": "Initier la télésurveillance",
+      "deletePatient": "Suppression définitive du patient",
+      "edit": "Modifier les informations patient",
+      "editAlert": "Paramétrage des alertes",
+      "exportData": "Export des données patient",
+      "goToTelemonitoring": "Accéder au dossier de télésurveillance"
+    },
+    "center": {
+      "choice": {
+        "info": "Sélection du centre"
+      }
+    },
+    "consent": {
+      "Telemonitoring": "le patient a donné son consentement pour le traitement de ses données personnelles nécessaire à  la télésurveillance",
+      "docModel": "Modèle de consentement"
+    },
+    "create": {
+      "confirm": {
+        "content": "le patient a bien été créé.",
+        "title": "Patient créé."
+      },
+      "duplicate": {
+        "button": {
+          "ignore": "Créer le patient"
+        },
+        "content": "Le(s) patient(s) suivant(s) sont de possible(s) doublon(s) du patient que vous souhaitez créer. Si c'est le cas cliquez sur le patient pour le sélectionner sinon cliquer sur le bouton 'Créer le patient' pour forcer sa création.",
+        "title": "Doublon(s) potentiel(s):"
+      },
+      "notAuthorized": "Vous ne disposez pas des droits nécéssaires pour créer ce patient (indication ou catégorie d'age non suivie)",
+      "title": "Création d'un patient"
+    },
+    "delete": {
+      "askConfirm": {
+        "content": "Attention cette suppression est définitive, pour confirmer la suppression merci de saisir le nom du patient.",
+        "title": "Suppression définitive du patient"
+      },
+      "confirm": {
+        "content": "Le patient a bien été supprimé.",
+        "title": "Suppression définitive du patient"
+      }
+    },
+    "edit": {
+      "title": "Modification de patient"
+    },
+    "email": "Email",
+    "error": {
+      "nationalId": "Format attendu 1 ou 2 + 14 chiffres"
+    },
+    "firstName": "Prénom",
+    "follow": "Suivi",
+    "gender": "Genre",
+    "healthInsurance": {
+      "codeOrganisation": "Organisme d'affiliation"
+    },
+    "height": {
+      "content": "Merci de renseigner ou de modifier (si nécessaire) la taille du patient",
+      "label": "taille en cm",
+      "title": "Taille"
+    },
+    "lastName": "Nom usuel",
+    "learning": {
+      "button": {
+        "edit": "Paramétrage de l'apprentissage"
+      },
+      "taskTodo": "Tâche(s) à faire",
+      "title": "Accompagnement thérapeutique"
+    },
+    "learningdata": {
+      "title": "Apprentissage"
+    },
+    "list": {
+      "search": "Recherche",
+      "title": "Liste des patients"
+    },
+    "medicalInformation": {
+      "addButton": "Ajouter une information médicale",
+      "consent": {
+        "title": "Consentements"
+      },
+      "indication": {
+        "comment": "Merci de préciser",
+        "date": "Date de l'indication",
+        "name": "Indication",
+        "transplantation": {
+          "date": "Date de transplantation"
+        },
+        "treatment": {
+          "date": "Date du début de traitement IS"
+        }
+      },
+      "otherIndications": "Autre(s) indication(s)",
+      "removeButton": "Supprimer",
+      "title": "Informations médicales"
+    },
+    "medicaldata": {
+      "bloodPressure": "Tension",
+      "bmi": "IMC",
+      "noData": "Aucune donnée",
+      "title": "Données cliniques",
+      "weight": "Poids"
+    },
+    "monitoring": {
+      "activate": {
+        "confirm": {
+          "content": "La télésurveillance pour {{patient}} a bien été initiée, le patient recevra le lien pour le téléchargement de l'application sur son email.",
+          "title": "Initier la télésurveillance"
+        },
+        "noRightIndication": {
+          "confirmMessage": "Vous ne pouvez pas initier une télésurveillance pour ce patient car il n'est pas traité pour une indication que vous suivez.",
+          "confirmTitle": "Impossible d'initier une télésurveillance"
+        },
+        "title": "Initier la télésurveillance"
+      },
+      "frequency": {
+        "once": "dans",
+        "unit": "Fréquence",
+        "value": "tous les"
+      },
+      "learning": {
+        "selectData": "Sélectionner les sujets d'apprentissage"
+      },
+      "noData": "Aucune donnée",
+      "noDataFollowed": "Aucune donnée suivie",
+      "ps": {
+        "followers": "Professionnels ayant accès en lecture seule",
+        "responsibles": "Médecins ayant les droits de gestion"
+      },
+      "selectData": "Sélectionner les données que vous souhaitez suivre",
+      "shared": {
+        "title": "Liste des professionnels de santé ayant accès."
+      },
+      "status": {
+        "close": {
+          "button": "Clore",
+          "confirmMessage": "Voulez-vous clôturer la télésurveillance? Les données resteront accessible en lecture seule.",
+          "confirmTitle": "Clôture",
+          "message": "La télésurveillance a été clôturée le {{endDate}}"
+        },
+        "open": {
+          "message": "La télésurveillance se clôturera dans {{closedInXDays}} jour(s)"
+        },
+        "postpone": {
+          "button": "Prolonger",
+          "confirmMessage": "Voulez-vous prolonger la télésurveillance jusqu'au {{newDate}}?",
+          "confirmTitle": "Prolongation"
+        },
+        "reopen": {
+          "button": "Rouvrir",
+          "confirmMessage": "Voulez-vous rouvrir la télésurveillance?",
+          "confirmTitle": "Ré-ouverture"
+        }
+      },
+      "threshold": "Données à suivre et seuils d'alerte"
+    },
+    "name": "Patient",
+    "nationalId": "Numéro de sécurité sociale ",
+    "newPatientButton": "Nouveau patient",
+    "phone": "Téléphone",
+    "psychologicaldata": {
+      "noData": "Aucune donnée",
+      "title": "Données psychologiques"
+    },
+    "telemonitoring": {
+      "noActivated": "La télésurveillance n'a pas encore été activée, cliquez sur le lien suivant si vous souhaitez l'initialiser : ",
+      "title": "Télésurveillance"
+    }
+  },
+  "prescription": {
+    "button": {
+      "delete": "Supprimer l'ordonnance",
+      "show": "Voir l'ordonnance"
+    },
+    "date": "Date",
+    "delete": {
+      "content": "Êtes-vous sûr de vouloir supprimer cette ordonnance?",
+      "title": "Suppression"
+    },
+    "file": {
+      "dragDrop": "Déposer le fichier ici",
+      "or": "ou"
+    },
+    "list": {
+      "noElement": "Aucune ordonnance"
+    },
+    "name": "Nom",
+    "patient": {
+      "message": "Seule la dernière ordonnance est accessible par le patient",
+      "title": "Ordonnance(s) à destination du patient"
+    },
+    "supplier": {
+      "message": "",
+      "title": "Ordonnance(s) à destination d'Optim'Care"
+    }
+  },
+  "register": {
+    "address": {
+      "selection": "Rechercher votre centre"
+    },
+    "center": {
+      "choice": {
+        "explanation": "Sélectionner un centre dans la liste ou cliquez sur le bouton + pour en créer un nouveau",
+        "info": "Centre"
+      },
+      "create": {
+        "button": "Nouveau centre",
+        "explanation": "Nouveau centre"
+      }
+    },
+    "confirm": {
+      "content": "Une fois votre compte validé, vous recevrez un email.",
+      "title": "Compte validé"
+    },
+    "title": "Création compte",
+    "user": {
+      "ageRightFilters": "Age des patients suivis*:",
+      "authentication": {
+        "emailNotification": {
+          "explain": "email sur lequel vous recevrez vos notifications"
+        },
+        "emailOtp": {
+          "explain": "Email pour envoi d'un code unique (OTP) à chaque connexion (si vous avez choisi cette option)"
+        },
+        "mode": {
+          "cps": "Authentification carte CPS",
+          "explain": "Vous pouvez choisir de vous connecter avec:\n<p>- un identifiant mot de passe fort</p>\n<p>-un identifiant mot de passe fort et un mot de passe unique qui vous sera envoyé par mail à chaque connexion (OTP) </p>\n<p>- votre carte CPS <p>",
+          "otp": "Authentification mot de passe unique (OTP)",
+          "title": "Mode d'authentification"
+        }
+      },
+      "center": {
+        "new": "Nouveau centre"
+      },
+      "country": "Pour les Professionnels de santé travaillant dans un centre français, la création de compte avec votre carte CPS est possible et sera plus simple.",
+      "foreign": "Autre",
+      "french": "Centre français",
+      "identifiant": {
+        "explain": "",
+        "label": "Identifiant national (numéro RPPS ou Adeli)"
+      },
+      "indicationRightFilters": "Indications suivies (merci de les sélectionner dans la liste)*",
+      "licenses": {
+        "label": "Demande d'accès aux solutions (merci de les sélectionner dans la liste)*"
+      },
+      "roles": {
+        "title": "Solutions souhaitées et informations concernant les indications que vous prenez en charge:"
+      }
+    }
+  },
+  "request": {
+    "button": {
+      "print": "Export PDF"
+    },
+    "create": {
+      "patient": {
+        "explanation": "Si vous ne trouvez pas le patient dans la liste, vous pouvez le créer en cliquant sur le bouton \"+\""
+      }
+    },
+    "indication": {
+      "date": "Date",
+      "name": "Indication"
+    },
+    "list": {
+      "search": "Recherche"
+    },
+    "patient": {
+      "create": {
+        "button": "Créer un patient"
+      },
+      "label": "Patient"
+    }
+  },
+  "rights": {
+    "title": "Rôles"
+  },
+  "settings": {
+    "finess": {
+      "button": "Mettre à jour",
+      "confirm": {
+        "content": "L'annuaire FINESS a bien été mis à jour",
+        "title": "Mise à jour annuaire Finess"
+      },
+      "explain": "Pour mettre à jour l'annuaire, il faut récupérer l'url à cette adresse : <br/><a href='https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/'>Site finess</a> puis copier l'url du block 'Extraction Finess des Etablissements'. <br/><br/>Attention ceci peut prendre plusieurs minutes",
+      "title": "Mise à jour annuaire Finess",
+      "url": "Url"
+    },
+    "title": "Paramètres"
+  },
+  "uploadFile": {
+    "error": {
+      "invalidSize": "Le fichier est trop volumineux (taille maximale 1Mo)",
+      "invalidType": "Ce format de fichier n'est pas accepté (format accepté : pdf ou image)"
+    }
+  },
+  "user": {
+    "administrativeInformation": {
+      "title": "Données administratives"
+    },
+    "ageRightFilters": {
+      "label": "Types de patient suivis",
+      "none": "Aucun"
+    },
+    "authentication": {
+      "mode": {
+        "label": "Mode d'authentification",
+        "title": "Authentification"
+      }
+    },
+    "button": {
+      "close": "Clôturer le compte",
+      "edit": "Éditer le compte"
+    },
+    "center": "Centre",
+    "close": {
+      "content": "Êtes vous sûr de vouloir clôturer ce compte?",
+      "message": "Le compte est clôturé",
+      "title": "Clôture du compte"
+    },
+    "create": {
+      "title": "Création d'un utilisateur"
+    },
+    "department": "Service",
+    "edit": {
+      "confirm": {
+        "content": "Les informations de l'utilisateur ont été mises à jour",
+        "title": "Modification d'un compte utilisateur"
+      },
+      "title": "Modification d'un compte utilisateur"
+    },
+    "email": "email",
+    "emailNotification": "email pour les alertes/notifications",
+    "emailOtp": "email pour recevoir le mot de passe unique (si vous avez choisi cette option)",
+    "firstName": "Prénom",
+    "indicationRightFilters": {
+      "label": "Indications suivies",
+      "none": "Aucune"
+    },
+    "language": {
+      "application": "Langue de l'application",
+      "english": "Anglais",
+      "french": "Français",
+      "title": "Langue"
+    },
+    "lastName": "Nom",
+    "licenses": {
+      "asked": "Licence"
+    },
+    "list": {
+      "noElement": "Aucun utilisateur trouvé"
+    },
+    "nationalId": "Identifiant national",
+    "phone": "Téléphone",
+    "profil": {
+      "contactAdmin": "Pour les modifications autres que les emails, merci de contacter Optim'Care : admin@optim-care.com"
+    },
+    "rights": {
+      "title": "Rôles"
+    },
+    "role": {
+      "none": "Aucun rôle"
+    },
+    "roles": "Rôles",
+    "specialty": "Spécialité",
+    "title": "Titre",
+    "validate": {
+      "title": "Validation d'un compte utilisateur"
+    },
+    "validation": {
+      "confirm": {
+        "content": "Le compte utilisateur a été validé, il va recevoir un email avec un lien pour enregistrer son mot de passe.",
+        "title": "Le compte utilisateur a été validé"
+      },
+      "reject": {
+        "button": "Rejeter",
+        "comment": "Raison du refus",
+        "title": "Rejeter la demande"
+      }
+    },
+    "warning": {
+      "licenses": {
+        "TELE_MONITORING": "Attention ce centre n'est pas validé pour la télésurveillance. Ne pas le valider tant que les formalités ne sont pas remplies."
+      },
+      "noCreatedWithCps": "Attention ce professionnel de santé ne s'est pas authentifié avec sa carte CPS, vérifier la consistance des informations avant de valider.",
+      "noFrenchUser": "Merci de vérifier que le demandeur est bien un  Professionnel de santé et vérifier la consistance des informations avant de valider.",
+      "rppsNotFound": "Attention: L'identifiant national saisi \"{{rppsName}}\" n'a pas été trouvé dans l'annuaire ASIP.",
+      "rppsNotMatch": "Attention: Le nom saisi ne correspond pas à l'identifiant national \"{{rppsName}}\"."
+    }
+  },
+  "valueset": {
+    "addButton": "Edition d'une nomenclature",
+    "removeButton": "Supprimer une nomenclature",
+    "title": "Nomenclature"
+  },
+  "welcome": {
+    "content": "Optim’Care développe une plateforme unique, évolutive et sur-mesure intégrant différentes solutions de e-santé pour les patients transplantés et les professionnels de santé impliqués dans leur suivi.  <br/><br/>Parce que la sécurité des patients et la protection de leurs données font partie de nos engagements, Optim’Care garantit une fiabilité optimale de ses solutions.",
+    "title": "<b>Bienvenue sur la<br/>plateforme</b> Optim'Care"
+  }
+}

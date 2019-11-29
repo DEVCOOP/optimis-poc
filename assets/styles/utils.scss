@@ -1,0 +1,196 @@
+@import '~@angular/material/theming';
+
+.center {
+  text-align: center;
+}
+
+.spacer {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.right {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.left {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  color: mat-color($primary);
+}
+
+h2 {
+  color: mat-color($accent);
+}
+
+h3 {
+  color: mat-color($accent);
+}
+
+button {
+  &.mat-raised-button, &.mat-stroked-button {
+    border-radius: 19px;
+  }
+}
+
+.mat-toolbar {
+  .mat-button {
+    border-radius: 19px;
+
+    &.active {
+      background-color: mat-color($accent);
+    }
+  }
+}
+
+.list {
+  h3 {
+    color: mat-color($accent);
+    margin: 0;
+    padding: 16px 0 0 0;
+  }
+  &.list-section {
+    > div:not(.list):not(.inline) {
+      background-color: $blue-light-color;
+    }
+  }
+  > mat-table {
+    background-color: $blue-light-color !important;
+  }
+  > div:not(.list):not(.inline) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    > div {
+      box-sizing: border-box;
+      align-items: center;
+      max-width: 80%;
+      min-width: 50%;
+    }
+    > div:last-child {
+      //flex: 0 0 auto;
+      //display: contents;
+    }
+  }
+}
+
+.list.auc {
+  > div:not(.list):not(.inline) {
+    > div {
+      min-width: 70%;
+    }
+  }
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.fab-button {
+  position: fixed !important;
+  right: 20px;
+  bottom: 65px;
+  z-index: 50;
+}
+
+mat-table.compress {
+  mat-footer-row, mat-row, mat-header-row {
+    min-height: 24px;
+  }
+}
+
+.comment {
+  white-space: pre-wrap;
+  font-style: italic;
+}
+
+.mat-list {
+  padding-top: 0;
+  .mat-list-item, .mat-list-item.mat-list-item-with-avatar {
+    height: 40px;
+  }
+}
+
+mat-icon {
+  &.success {
+    color: $green-color;
+  }
+  &.error {
+    color: $red-color;
+  }
+  &.info {
+    color: $grey-color;
+  }
+  &.warn {
+    color: mat-color($warn);
+  }
+  &.alert {
+    color: $red-color;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+table.padding tr td.mat-cell {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.clickable {
+  /* Define the hover highlight color for the table row */
+  tbody>tr:hover {
+    background-color: mat-color($primary, 0.2);
+    cursor: pointer;
+  }
+}
+
+.mat-paginator-container {
+  justify-content: flex-start !important;
+}
+
+// slider
+.noUi-tooltip {
+  border: 0;
+  padding: 0;
+}
+.noUi-connect {
+  background: mat-color($primary);
+}
+.noUi-handle:after, .noUi-handle:before {
+  left: 8px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 20px;
+  right: -8px;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: 105%;
+}
+
+
+
+

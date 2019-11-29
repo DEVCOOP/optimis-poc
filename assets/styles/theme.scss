@@ -1,0 +1,123 @@
+@import '~@angular/material/theming';
+
+// define 3 theme color
+// mat-palette accepts $palette-name, main, lighter and darker variants
+
+$primary_map: (
+  50: #8bbdf0,
+  100: #8bbdf0,
+  200: #8bbdf0,
+  300: #8bbdf0,
+  400: #8bbdf0,
+  500: #699fd5,
+  600: #699fd5,
+  700: #699fd5,
+  800: #699fd5,
+  900: #53799f,
+  A100: #53799f,
+  A200: #53799f,
+  A400: #53799f,
+  A700: #53799f,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $light-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+
+$accent_map: (
+  50: #ff8eac,
+  100: #ff8eac,
+  200: #ff8eac,
+  300: #ff8eac,
+  400: #ff8eac,
+  500: #ea4873,
+  600: #ea4873,
+  700: #ea4873,
+  800: #ea4873,
+  900: #aa3554,
+  A100: #aa3554,
+  A200: #aa3554,
+  A400: #aa3554,
+  A700: #aa3554,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $light-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+
+$primary: mat-palette($primary_map, 500, 300, 900);
+$accent: mat-palette($accent_map, 500, 300, 900);
+$warn: mat-palette($mat-deep-orange, 500, 300, 900);
+
+// create theme (use mat-dark-theme for themes with dark backgrounds)
+$theme: mat-light-theme($primary, $accent, $warn);
+
+// Define an alternate dark theme.
+$dark-primary: mat-palette($mat-light-blue, 500, 300, 900);
+$dark-accent: mat-palette($mat-cyan, 500, 300, 900);
+$dark-warn: mat-palette($mat-red);
+$dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+
+$red-color: #eb1730;
+$yellow-color: #ffb865;
+$green-color: #9fce6f;
+$black-color: #3d404b;
+$grey-color: #757575;
+$grey-light-color: #dedede;
+$blue-light-color: #f2f7ff;
+$medical-color:#00a29b;
+$psychological-color:#F37D27;
+$biological-color:#DA0E6A;
+$learning-color:#8C83E2;
+
+$optimcare-typography: mat-typography-config(
+  $font-family: 'Nunito'
+);
+
+// icon color
+.grey-icon {
+  color: $grey-color;
+}
+.grey-icon svg {
+  fill: $grey-color;
+}
+.green-icon {
+   color: $green-color;
+ }
+.green-icon svg {
+  fill: $green-color;
+}
+.accent-icon {
+  color: mat-color($accent);
+}
+.accent-icon svg {
+  fill: mat-color($accent);
+}
+
+body {
+  margin: 0;
+}

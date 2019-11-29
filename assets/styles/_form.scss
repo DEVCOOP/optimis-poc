@@ -1,0 +1,19 @@
+@import './theme';
+
+.mat-form-field {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+mat-checkbox.ng-invalid {
+  .mat-checkbox-label {
+    color: $red-color;
+  }
+}
+
+.mat-checkbox-layout .mat-checkbox-label {
+  white-space: normal !important;
+}
+
