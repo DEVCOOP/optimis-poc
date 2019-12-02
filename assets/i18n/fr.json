@@ -244,7 +244,8 @@
         "add": "Ajouter un article",
         "edit": "Editer un article",
         "new": "Créer un nouvel article",
-        "remove": "Supprimer un article"
+        "remove": "Supprimer un article",
+        "share": "Partager un article"
       },
       "categories": "Thématique(s)",
       "categoriesIndications": "Thématiques / Indications",
@@ -314,7 +315,8 @@
         "add": "Ajouter un questionnaire",
         "edit": "Editer un questionnaire",
         "new": "Créer un nouveau questionnaire",
-        "remove": "Supprimer un questionnaire"
+        "remove": "Supprimer un questionnaire",
+        "share": "Partager un questionnaire"
       },
       "categories": "Thématique(s)",
       "categoriesIndications": "Thématiques / Indications",
